@@ -1,0 +1,34 @@
+[
+    {
+        "titulo": "Viaje a Bariloche",
+        "subtitulo": "Visita la cervecería",
+        "categoria": "Vuelos",
+        "flex:": true,
+        "precio": 2323,
+        "imagen": "assets/bariloche.webp"
+    },
+    {
+        "titulo": "Viaje a Calafate",
+        "subtitulo": "Visita el hielo ese copado",
+        "categoria": "Hotel + vuelo",
+        "flex:": false,
+        "precio": 1244,
+        "imagen": "assets/calafate.webp"
+    },
+    {
+        "titulo": "Viaje al Norte",
+        "subtitulo": "¡Hay empanadas!",
+        "categoria": "Hotel + vuelo",
+        "flex:": false,
+        "precio": 6244,
+        "imagen": "assets/norte.jpg"
+    },
+    {
+        "titulo": "Viaje a Buenos Aires",
+        "subtitulo": "Está el Obelisco acá",
+        "categoria": "Vvuelo",
+        "flex:": true,
+        "precio": 583,
+        "imagen": "assets/buenos-aires.webp"
+    }
+]

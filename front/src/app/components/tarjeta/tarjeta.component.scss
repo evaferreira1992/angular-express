@@ -1,0 +1,35 @@
+.tarjeta {
+    background-color: white;
+    border-radius: 6px;
+    border: 1px solid #999;
+    max-width: 200px;
+    &-img {
+        border-radius: 6px 6px 0 0;
+        max-width: 100%;
+    }
+    &-info {
+        padding: 20px;
+        font-size: 16px;
+        &_header {
+            p {
+                text-transform: uppercase;
+                color: #777;
+                font-size: 12px;
+                margin-bottom: 5px;
+            }
+            h2 {
+                font-size: 20px;
+                margin-bottom: 15px;
+            }
+        }
+        &_flexible {
+            border-radius: 50px;
+            width: 100px;
+            margin-bottom: 10px;
+            display: inline-block;
+        }
+        &_precio {
+            font-size: 26px;
+        }
+    }
+}

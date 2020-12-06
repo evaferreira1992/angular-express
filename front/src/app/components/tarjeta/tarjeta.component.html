@@ -1,0 +1,17 @@
+<div class="tarjeta">
+    <img src="assets/gatito.jpg" alt="Gatito" class="tarjeta-img">
+    <article class="tarjeta-info">
+        <header class="tarjeta-info_header">
+            <p>{{ categoria }}</p>
+            <h2>{{ titulo }}</h2>
+        </header>
+        <p class="tarjeta-info_subtitulo">Esto es un subtítulo</p>
+        <span
+            class="tarjeta-info_flexible"
+            *ngIf="flex"
+        >
+            Vuelo Flexible
+        </span>
+        <p class="tarjeta-info_precio">$111</p>
+    </article>
+</div>

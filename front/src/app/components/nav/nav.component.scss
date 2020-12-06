@@ -1,0 +1,22 @@
+.nav {
+    max-width: 1000px;
+    margin: 0 auto;
+    &-lista {
+        list-style: none;
+        display: flex;
+        &_item {
+            flex-grow: 1;
+            &-link {
+                display: block;
+                padding: 5px;
+                color: var(--black);
+                text-align: center;
+                background-color: var(--pink);
+                &:hover {
+                    background-color: hotpink;
+                    color: white;
+                }
+            }
+        }
+    }
+}
