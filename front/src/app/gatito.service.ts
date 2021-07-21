@@ -18,7 +18,7 @@ export class GatitoService {
   }
 
   getName () {
-    return this.http.get<any>("http://localhost:3000/users");
+    return this.http.get<any>("/api/prueba");
   }
 
 }
