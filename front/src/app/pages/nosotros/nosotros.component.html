@@ -1,1 +1,11 @@
-<h1>Hola, estás en página nosotros</h1>
+<app-title
+    [title]="title"
+    [subtitle]="subtitle"
+></app-title>
+
+<!-- El tipo de evento va entre () y luego llamamos a una función del archivo *.ts -->
+<button (click)="toggleInformation()">Cliqueame</button>
+<p *ngIf="mostrar">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita, cupiditate nihil nobis, minima earum quas id consequuntur dolores sunt libero totam esse vel quibusdam culpa dolore distinctio, officia velit fugiat?</p>
+
+
+<hr>

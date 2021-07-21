@@ -1,0 +1,17 @@
+.nav {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    background-color: pink;
+}
+.nav-item {
+    flex-grow: 1;
+}
+.nav-item_link {
+    display: block;
+    padding: 8px 0;
+    text-align: center;
+}
+.nav-item_link:hover {
+    background-color: beige;
+}

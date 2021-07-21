@@ -1,13 +1,17 @@
-<nav class="nav">
-    <ul class="nav-lista">
-        <li class="nav-lista_item">
-            <a class="nav-lista_item-link" href="/">Home</a>
+<nav>
+    <ul class="nav">
+        <li class="nav-item">
+            <!-- 
+            routerLink para páginas internas es más performante que un href.
+            Seguimos usando href para enlaces externos
+            -->
+            <a routerLink="./" class="nav-item_link">Inicio</a>
         </li>
-        <li class="nav-lista_item">
-            <a class="nav-lista_item-link" href="/nosotros">Quienes somos</a>
+        <li class="nav-item">
+            <a routerLink="/nosotros" class="nav-item_link">Nosotros</a>
         </li>
-        <li class="nav-lista_item">
-            <a class="nav-lista_item-link" href="/contacto">Contacto</a>
+        <li class="nav-item">
+            <a routerLink="/contacto" class="nav-item_link">Contacto</a>
         </li>
     </ul>
 </nav>

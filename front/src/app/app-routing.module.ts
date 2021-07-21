@@ -1,15 +1,15 @@
 import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
 
-// Importamos el componente de la página
+// Importamos la página
+import { ContactoComponent } from './pages/contacto/contacto.component';
+import { HomeComponent } from './pages/home/home.component';
 import { NosotrosComponent } from './pages/nosotros/nosotros.component';
 
-// Declaramos la ruta con su componente correspondiente
 const routes: Routes = [
-  {
-    path: 'nosotros',
-    component: NosotrosComponent
-  }
+  { path: '', component: HomeComponent },
+  { path: 'nosotros', component: NosotrosComponent },
+  { path: 'contacto', component: ContactoComponent }
 ];
 
 @NgModule({

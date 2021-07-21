@@ -1,0 +1,17 @@
+header {
+    max-width: 1000px;
+    text-align: center;
+    margin: 0 auto 40px;
+}
+
+h1 {
+    color: rebeccapurple;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #555;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
